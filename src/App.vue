@@ -1,13 +1,26 @@
 <template>
   <h1>Union Catalogue</h1>
   <p>For experimental use only</p>
+  <b>by {{ name }} </b>
+  <button v-on:click="changeName">Change Name</button>
+  
+  
 </template>
 
 <script>
 
 export default {
   name: 'App',
-  components: {}
+  data() {
+    return{
+      name : "Alumni JIP"
+    }
+  },
+  methods: {
+    changeName(){
+       this.name = "Alumni Fikom"
+    }
+  }
 }
 </script>
 
