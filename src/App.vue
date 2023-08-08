@@ -13,12 +13,12 @@ export default {
   name: 'App',
   data() {
     return{
-      name : "Alumni JIP"
+      name : "Alumni Jozz"
     }
   },
   methods: {
     changeName(){
-       this.name = "Alumni Fikom"
+       this.name = "Alumni Fijozz"
     }
   }
 }
