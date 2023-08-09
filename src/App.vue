@@ -2,7 +2,7 @@
   <h1>Union Catalogue</h1>
   <p>For experimental use only</p>
   <b>by {{ name }} </b>
-  <button v-on:click="changeName">Change Name</button>
+  <button @click="changeName">Change Name</button>
   
   
 </template>
